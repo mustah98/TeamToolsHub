@@ -53,7 +53,7 @@ Here's a list of the tools currently available in this repository:
 
 ## Contributing
 
-We encourage you to contribute your own scripts and tools to this repository. To contribute, follow these steps:
+Everybody is encouraged to contribute your own scripts and tools to this repository. To contribute, follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your contribution:
