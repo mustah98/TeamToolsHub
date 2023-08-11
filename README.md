@@ -47,9 +47,9 @@ Each tool comes with a brief description of what it does, parameter settings, de
 ## Available Tools
 
 Here's a list of the tools currently available in this repository:
-  - Something awesome
-  - Something awesome too
-  - Something even more awesome!
+  - **Something awesome**
+  - **Something awesome too**
+  - **Something even more awesome!**
 
 ## Contributing
 
@@ -72,5 +72,6 @@ We encourage you to contribute your own scripts and tools to this repository. To
     ```
 
 5. Create a pull request from your forked repository to the main repository.
+6. Update the README accordingly to keep everything up-to-date!
 
 
