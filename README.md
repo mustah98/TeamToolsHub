@@ -1,6 +1,6 @@
 # TeamToolsHub
 
-Welcome to TeamToolsHub! This Git repository is a collection of useful command-line scripts and tools created by our team to streamline our workflow and enhance our productivity. Here, we share simple yet effective tools that can be easily used by everyone on the team. The repository will be regularly updated with new tools and improvements to existing ones. Feel free to contribute your own scripts and tools to make our development process even smoother.
+Welcome to TeamToolsHub! This Git repository is a collection of useful and simple (!) command-line scripts and tools created by our team to streamline our workflow and enhance our productivity. Here, we share simple yet effective tools that can be easily used by everyone on the team. The repository will be regularly updated with new tools and improvements to existing ones. Feel free to contribute your own scripts and tools to make our development process even smoother.
 
 ## Table of Contents
 
@@ -31,17 +31,17 @@ To start using the tools from this repository, follow these simple installation 
 
 Each tool comes with a brief description of what it does, parameter settings, dependencies and an example of how to use it. Keep the discription as simple as possible. To use a tool, open a terminal window and navigate to the directory where the tool is located. Then, run the tool with the appropriate command, as shown in the example.
 
-**Tool Name**
+**data_renamer**
   - Description: A brief description of what the tool does.
   - Parameters:
       - `parameter1`: Description of parameter 1.
       - `parameter2`: Description of parameter 2.
   - Dependencies:
-      - Package 1
-      - Package 2
+      - `Package 1`
+      - `Package 2`
   - Example:
       ```sh
-      ./tool_name.sh --parameter1 value1 --parameter2 value2
+      ./data_renamer.sh --parameter1 value1 --parameter2 value2
       ```
 
 ## Available Tools
