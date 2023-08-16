@@ -68,6 +68,26 @@ Here's a list of the tools currently available in this repository:
       python itol_file_generator.py -i input.csv -o output_dir
     ```
 
+**Core Genome Phylogeny**
+- Description: Creates a core genome phylogeny from a set of genomes or paired-end sequence files.
+- Parameters:
+  - `i`: `input`: Path to the directory containing input files (reads in `.fastq` or genomes in `.fasta` format).
+  - `t`: `threads`: Number of threads to use for parallel processing. Default is 4.
+  - `o`: `output_dir`: Output path for generated files and results.
+  - `m`: `model`: Substitution model for RaxML-ng. Default is GTR+G.
+  - `th`: `threshold`: Clustering threshold for ChewBBACA. Default is 0.95.
+- Dependencies:
+  - `CGP_environment` : Create and activate the CGP environment.
+  (for manual installation)
+  - SPAdes
+  - chewBBACA
+  - MUSCLE
+  - RaxML-ng
+- Example:
+  ```sh
+  python CPG.py -i INPUT_DIR/ -o OUTPUT_DIR/ [-m MODEL] [-th THRESHOLD] [-t THREADS]
+  ```
+
 ## Contributing
 
 Everybody is encouraged to contribute their own scripts and tools to this repository. To contribute, follow these steps:
