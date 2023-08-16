@@ -57,10 +57,12 @@ Here's a list of the tools currently available in this repository:
     - `pandas`
     - `distinctipy`
     - `CSV-Format`:
-    | IDs | annotation column 1 |annotation column 2 |
-    |----------|----------|----------|
-    | Sample_1 | Cat | Positive |
-    | Sample_2 | Dog | Negative |
+
+| IDs | annotation column 1 |annotation column 2 |
+|----------|----------|----------|
+| Sample_1 | Cat | Positive |
+| Sample_2 | Dog | Negative |
+
   - Example:
     ```sh
       python itol_file_generator.py -i input.csv -o output_dir
