@@ -29,20 +29,7 @@ To start using the tools from this repository, follow these simple installation 
 
 ## Usage
 
-Each tool comes with a brief description of what it does, parameter settings, dependencies and an example of how to use it. Keep the discription as simple as possible. To use a tool, open a terminal window and navigate to the directory where the tool is located. Then, run the tool with the appropriate command, as shown in the example.
-
-**data_renamer**
-  - Description: A brief description of what the tool does.
-  - Parameters:
-      - `parameter1`: Description of parameter 1.
-      - `parameter2`: Description of parameter 2.
-  - Dependencies:
-      - `Package 1`
-      - `Package 2`
-  - Example:
-      ```sh
-      ./data_renamer.sh --parameter1 value1 --parameter2 value2
-      ```
+Each tool comes with a brief description of what it does, parameter settings, dependencies and an example of how to use it. Keep the discription as simple as possible. To use a tool, open a terminal window and navigate to the directory where the tool is located. Then, run the tool with the appropriate command, as shown.
 
 ## Available Tools
 
