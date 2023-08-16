@@ -35,7 +35,7 @@ Each tool comes with a brief description of what it does, parameter settings, de
 
 Here's a list of the tools currently available in this repository:
 
-1. **itol_file_generator**
+## 1. itol_file_generator
   - Description: Creates based on the columns of a CSV file color-coded IToL usable annotation files. For each column one annotation file is created.
   - Parameters:
     - `-i`: path to input csv.
@@ -57,7 +57,7 @@ Here's a list of the tools currently available in this repository:
 
 
 
-2. **Core Genome Phylogeny**
+## 2. Core Genome Phylogeny
 - Description: Creates a core genome phylogeny from a set of genomes or paired-end sequence files.
 - Parameters:
   - `i`: `input`: Path to the directory containing input files (reads in `.fastq` or genomes in `.fasta` format).
