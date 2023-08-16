@@ -47,9 +47,24 @@ Each tool comes with a brief description of what it does, parameter settings, de
 ## Available Tools
 
 Here's a list of the tools currently available in this repository:
-  - **Something awesome**
-  - **Something awesome too**
-  - **Something even more awesome!**
+
+**itol_file_generator**
+  - Description: Creates based on the columns of a CSV file color-coded IToL usable annotation files. For each column one annotation file is created.
+  - Parameters:
+    - `-i`: path to input csv.
+    - `-o`: path to output directory.
+  - Dependencies:
+    - `pandas`
+    - `distinctipy`
+    - `CSV-Format`:
+    | IDs | annotation column 1 |annotation column 2 |
+    |----------|----------|----------|
+    | Sample_1 | Cat | Positive |
+    | Sample_2 | Dog | Negative |
+  - Example:
+    ```sh
+      python itol_file_generator.py -i input.csv -o output_dir
+    ```
 
 ## Contributing
 
@@ -73,5 +88,3 @@ Everybody is encouraged to contribute their own scripts and tools to this reposi
 
 5. Create a pull request from your forked repository to the main repository.
 6. Update the README accordingly to keep everything up-to-date!
-
-
