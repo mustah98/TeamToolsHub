@@ -235,4 +235,4 @@ if __name__ == "__main__":
 	try:
 		main()
 	except Exception as e:
-        print("\033[91m An error occurred: " + str(e))
+		print("\033[91m An error occurred: " + str(e))
